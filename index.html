@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/league.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="./images/typescript.jpg"></section>
+				<section data-markdown>
+					<textarea data-template>
+						## History
+						* TypeScript is a programming language introduced by Microsoft in 2012 and positioned as a web application development tool that extends the capabilities of JavaScript.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## What is TypeScript and what is TypeScript for?
+					</textarea>
+				 </section>
+				<section>
+					<section data-markdown>
+						<textarea data-template>
+							## So TypeScript is...
+							* **TypeScript is a syntactic superset of JavaScript which adds static typing**
+							_______
+
+							* **TypeScript is JavaScript’s runtime with a compile-time type checker**
+						</textarea>
+					 </section>
+					<section data-markdown>
+						<textarea data-template>
+							* TypeScript being a "Syntactic Superset" means that it shares the same base syntax as JavaScript, but adds something to it. This basically means that TypeScript adds syntax on top of JavaScript, allowing developers to add types.
+							______________________________
+							* **TypeScript is JavaScript with additional syntax for specifying data types**
+						</textarea>
+					</section>
+				</section>
+				<section>Slide 3</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
